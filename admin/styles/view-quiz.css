@@ -1,0 +1,48 @@
+.actionsBtnContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.actionsBtnContainer div {
+  margin-right: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.actionsBtnContainer div a {
+  margin-left: 5px;
+}
+.detailsContainer {
+  background: #fff;
+}
+.detailsContainer div {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+#desc,
+#author {
+  font-size: 20px;
+}
+.questionContainer {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5px;
+}
+.questionContainer div {
+  margin-right: 5px;
+}
+.choiceContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.choiceContainer input {
+  margin-right: 10px;
+}
+.choiceContainer p {
+  margin-right: 5px;
+  margin-bottom: 0;
+}

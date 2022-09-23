@@ -1,0 +1,32 @@
+.topContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center !important;
+}
+.actionsBtnContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.actionsBtnContainer button {
+  margin-right: 10px;
+}
+.createContainer > div {
+  margin-bottom: 20px;
+}
+.choice {
+  margin-bottom: 10px;
+}
+.answerContainer {
+  display: grid;
+  grid-template-columns: 60px auto 60px auto;
+  grid-column-gap: 20px;
+}
+.answerContainer label {
+  padding-top: 5px;
+}
+#publish {
+  width: 170px;
+}

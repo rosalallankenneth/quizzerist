@@ -1,0 +1,58 @@
+body {
+  scroll-behavior: smooth;
+}
+.navbar {
+  background: rgb(255, 255, 255);
+}
+#banner {
+  height: 50px;
+}
+.container.content {
+  padding-top: 80px !important;
+}
+
+/* COLOR THEMES */
+.text-theme {
+  color: #851bb6 !important;
+}
+.text-theme-secondary {
+  color: #ccc !important;
+}
+.bg-theme {
+  background: #851bb6 !important;
+  color: #fff !important;
+}
+.bg-theme-secondary {
+  background: #555555 !important;
+  color: #fff !important;
+}
+.bg-theme-border {
+  border: 2px #851bb6 solid !important;
+  background: #fff !important;
+  color: #851bb6 !important;
+}
+.bg-theme-border:hover {
+  background: #851bb6 !important;
+  color: #fff !important;
+}
+#txt-error-msg {
+  background: #fff;
+  border-radius: 5px;
+}
+#txt-msg {
+  border-radius: 5px;
+}
+.msg-hide {
+  display: none;
+}
+.msg-show {
+  display: inline-block !important;
+  padding: 10px;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+#addQuizLink {
+  cursor: pointer;
+}
